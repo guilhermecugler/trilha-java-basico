@@ -1,3 +1,4 @@
+package src;
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 
     // Implementação dos métodos de ReprodutorMusical
