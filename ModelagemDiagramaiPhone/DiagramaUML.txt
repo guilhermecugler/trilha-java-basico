@@ -1,0 +1,44 @@
++----------------------------------+
+|        ReprodutorMusical         |
++----------------------------------+
+| + tocar()                        |
+| + pausar()                       |
+| + selecionarMusica(String musica)|
++----------------------------------+
+
++--------------------------+
+|       AparelhoTelefonico |
++--------------------------+
+| + ligar(String numero)   |
+| + atender()              |
+| + iniciarCorreioVoz()    |
++--------------------------+
+
++---------------------------+
+|       NavegadorInternet   |
++---------------------------+
+| + exibirPagina(String url)|
+| + adicionarNovaAba()      |
+| + atualizarPagina()       |
++---------------------------+
+
++----------------------------------+
+|      iPhone                      |
++----------------------------------+
+| + tocar()                        |
+| + pausar()                       |
+| + selecionarMusica(String musica)|
+| + ligar(String numero)           |
+| + atender()                      |
+| + iniciarCorreioVoz()            |
+| + exibirPagina(String url)       |
+| + adicionarNovaAba()             |
+| + atualizarPagina()              |
++----------------------------------+
+            ^       ^        ^
+            |       |        |
++----------+--------+---------+----------+
+| implements   implements    implements  |
+|                                        |
+|                                        |
++----------------------------------------+
