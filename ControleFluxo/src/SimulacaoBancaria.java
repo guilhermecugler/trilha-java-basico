@@ -11,7 +11,6 @@ public class SimulacaoBancaria {
         while (continuar) { 
 
             int opcao = scanner.nextInt(); 
-        // TODO: Implemente as condições necessárias para avaliaa a opção escolhida:
         // Dica: Utilze o switch/case para o programa realizar as operações escolhidas pelo usuário.
             switch(opcao){
               case 1:
@@ -34,6 +33,7 @@ public class SimulacaoBancaria {
                 System.out.println("Opção inválida. Tente novamente.");
                 break;
             }
+        scanner.close();
         }
     }
 
